@@ -1,0 +1,6 @@
+program {
+    int x = 0;
+    goto finish;
+    x = 5;
+    finish: write(x);
+}

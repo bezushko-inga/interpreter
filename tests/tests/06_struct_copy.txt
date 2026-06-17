@@ -1,0 +1,11 @@
+program {
+    struct Pair {
+        int x, y;
+    }
+    Pair p, q;
+    p.x = 1;
+    p.y = 2;
+    q = p;
+    write(q.x);
+    write(q.y);
+}

@@ -1,0 +1,7 @@
+program {
+    int a = 10; // line comment
+    /* block comment */
+    int b = 2;
+    write(a / b);
+    write(a % 3);
+}

@@ -1,0 +1,5 @@
+program {
+    string a = "hi", b = "!", c;
+    c = a + b;
+    write(c);
+}
